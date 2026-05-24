@@ -1,0 +1,140 @@
+0001| Website Content Questionnaire for Training Company
+0002| 1. Basic Company Information
+0003| Company Name: JanNova Elements
+0004| Tagline / One-liner: Optimizing Human Potential, Empowering Organizations
+0005| Year of establishment: 2008 ( Previously known as ‘TAG Academy’, later rebranded to JanNova Elements )
+0006| Company logo (high resolution)
+0007| Contact details:
+0008| Let’s build better organizations together!
+0009| Phone number: 9987453879
+0010| Email: hr@jannova.in
+0011| Office operations: India - UAE - Qatar
+0012| Social media links (LinkedIn, Instagram, etc.)
+0013| Instagram: https://www.instagram.com/jannova_elements/
+0014| LinkedIn: https://www.linkedin.com/company/jannova-elements/posts/?feedView=all
+0015| 2. About Us Section
+0016| Brief company description
+0017| At JanNova Elements, we help organizations level up by transforming the way people, culture, and performance come together.
+0018| JanNova Elements partners with organizations to align people, culture, and strategy for sustainable business growth. We combine behavioral science and business insight to solve complex organizational challenges.
+0019| Detailed “About Us”
+0020| JanNova was built on a simple belief: organizations grow when their people do.
+0021| In today’s rapidly evolving world of work, businesses often focus on strategy, systems, and scale while overlooking the human side of transformation. At JanNova, we bridge that gap by aligning people, culture, and performance to create sustainable organizational growth.
+0022| From shaping workplace culture to developing leaders and navigating change, we create practical, people-centric solutions that work in real organizational settings. True to our name: People + New Beginnings → JanNova represents a fresh, modern approach to HR and Organization Development.
+0023| Our Philosophy
+0024| At JanNova, we believe that our clients’ organizational success is at the heart of everything we do
+0025| Through our G.R.O.W.T.H framework, we partner with clients to strengthen people, culture, and leadership by creating workplaces that are resilient, future-ready, and built for sustainable growth.
+0026| G.R.O.W.T.H
+0027| G – Growth Mindset R – Resilient Organizations O – Organizational Development W – Workforce Empowerment T – Talent Transformation H – Human-Centered Leadership
+0028| Founder(s) details:
+0029| Mr. Dinesh Jambe, Founder & CEO of JanNova Elements, brings extensive experience in Human Resources, Learning & Development, and Organization Development.
+0030| With a people-centric approach, he has worked with organizations across industries to strengthen leadership, workplace culture, and organizational growth.
+0031| What makes your company unique?
+0032| We believe every organization is unique, which is why we create solutions tailored to its people, culture, and goals through our exclusive 4D Model:
+0033| Diagnose → Design → Deliver → Drive Impact
+0034| DiagnoseWe begin by understanding your organization through data and conversations
+0035| DesignWe customize solutions aligned with your goals and culture
+0036| DeliverWe implement engaging and practical interventions that drive change
+0037| Drive ImpactWe ensure long-term sustainability
+0038| 3. Services / Training Programs
+0039| Organization Development
+0040| Organizational Development goes beyond workshops and isolated interventions. We work closely with organizations to understand how people, culture, leadership, and systems interact to influence performance. Our OD interventions are designed to create sustainable organizational change by improving collaboration, strengthening leadership alignment, and building healthy workplace cultures.
+0041| HR Consultancy
+0042| Whether an organization is building its HR function from the ground up or strengthening existing practices, we provide practical and scalable HR systems and practices that improve employee experience, talent retention, leadership capability, and organizational growth.
+0043| Talent Management
+0044| People are the driving force behind organizational success. JanNova Elements helps organizations create structured talent management practices that identify potential, strengthen capability, and build future-ready leadership pipelines.
+0045| Training
+0046| At JanNova Elements, training is not treated as a one-time event but as part of a larger capability-building journey. Our programs are designed around real organizational challenges and delivered through engaging, practical, and experiential learning methods. We focus on building behavioral, leadership, communication, and workplace effectiveness skills that directly impact business performance.
+0047| Executive Leadership Coaching
+0048| JanNova Elements offers coaching support for leaders, managers, and professionals navigating growth, transition, and organizational challenges. Our coaching approach focuses on enabling individuals to build clarity, confidence, emotional intelligence, and leadership effectiveness.
+0049| 4. Target Audience
+0050| Who are your ideal clients?
+0051| Professionals / Corporates / Organizations
+0052| Industries you serve
+0053| Training solutions designed and delivered for diverse age groups and workforce segments.
+0054| 5. Why Choose Us
+0055| Key differentiators (3–6 points)
+0056| Why Choose JanNova?
+0057| We don’t do generic work: We build around your people, your culture, your reality
+0058| We're built on science, not guesswork: No fluff. No trends for the sake of it.Just data, and what actually works.
+0059| We work with you, not above you: No long decks and ghostings..We collaborate, co-create, and stay in the process.
+0060| We balance empathy with execution: Human-centered approaches with measurable business impact.
+0061| Methodology (how you teach)
+0062| At JanNova Elements, our Organizational Development approach is rooted in the belief that sustainable transformation happens when people, culture, leadership, and business goals work in alignment. We follow a structured yet flexible approach that helps organizations navigate change with clarity, collaboration, and long-term impact.
+0063| Results delivered (e.g., % improvement, placements, etc.)
+0064| 6. Testimonials & Clients (In the next update)
+0065| Client logos (if any)
+0066| Testimonials:
+0067| Name
+0068| Company
+0069| Feedback (2–3 lines)
+0070| Case studies (optional but powerful)
+0071| 7. Trainers / Team
+0072| Name: Dinesh Jambe [ Corporate Trainer | Facilitator | Leadership Coach ]
+0073| Title: Founder
+0074| Description:
+0075| Dinesh Jambe is a dynamic Corporate Trainer, Coach, and Founder of JanNova Elements & EduTAG Academy.
+0076| With over 18 + years of experience, he has trained more than 120,000 participants across 75+ organizations and institutions.His expertise lies in leadership, communication, and personal growth blending strategy, psychology, and practical learning to inspire transformation.
+0077| Through JanNova Elements, he focuses on shaping confident , employable, and future ready individuals, driven by his vision of “Training and Growing” people to reach their highest potential.
+0078| His mission: To optimize human potential, elevate organizations, and drive JanNova’s growth through strategic vision, integrity, and client-centric solutions.
+0079| Name: Shraddha Paunikar [Corporate Trainer | Keynote Speaker | Leadership Coach ]
+0080| Title: Director - Training & OD
+0081| Description:
+0082| 5+ Years of Impact
+0083| Since 2020, Shraddha has partnered with entrepreneurs, founders, and CXOs to strengthen leadership capability, communication excellence, and professional effectiveness
+0084| Her mission: Impact millions through coaching, training, and conscious leadership development
+0085| Name: Dr. Sameer Deotey
+0086| Title: Executive Director - Projects [ India & UAE ]
+0087| Description:
+0088| Sameer drives the strategic vision and global growth initiatives at JanNova, with a focus on building the organization into an internationally recognized platform. He brings over a decade of experience in business management, entrepreneurship, and software architecture.
+0089| His mission: To create scalable systems, strong organizational frameworks, and future-ready structures that enable sustainable growth and operational excellence.
+0090| Name: Anika Gaurat [I/O Psychology Specialist]
+0091| Title: Director - Sr. HR & OD Consultant
+0092| Description:
+0093| With an academic foundation in I/O Psychology, Anika brings a fresh perspective to workplace culture, employee engagement, and organizational development.
+0094| She believes that every individual deserves success, and that it can be accelerated through growth-oriented mindsets, structured systems, and continuous development.
+0095| Her mission: To create people-centric organizations by integrating psychology, strategy, and leadership development to unlock individual and organizational potential.
+0096| 8. Courses / Learning Paths (if applicable)
+0097| Structured learning paths (if any)
+0098| Beginner → Advanced journey
+0099| Downloadable brochure (optional)
+0100| 9. Call-To-Action (Very Important)
+0101| What action do you want users to take?
+0102| Book a demo
+0103| Contact you
+0104| Enroll in course
+0105| WhatsApp number (if you want direct lead capture)
+0106| 10. Blog / Resources / Newsletters (Optional but Recommended)
+0107| Any existing articles?
+0108| 11. Media & Assets
+0109| 12. SEO & Branding Inputs
+0110| Keywords you want to rank for (e.g., “corporate training in Mumbai”)
+0111| organizational development consultancy
+0112| OD consultancy in Mumbai
+0113| people and culture consulting
+0114| leadership development consulting
+0115| organizational transformation consulting
+0116| employee engagement consulting
+0117| workplace culture consulting
+0118| executive coaching India
+0119| leadership capability building
+0120| change management consulting
+0121| HR consulting services
+0122| culture transformation consultancy
+0123| organizational effectiveness consulting
+0124| talent management consulting
+0125| corporate training for organizations
+0126| Cities / countries you are targeting
+0127| Competitors (optional)
+0128| 13. Technical Preferences
+0129| Domain name (if already purchased): jannova.in
+0130| Hosting (if already available): githubPages
+0131| Email integration required? (Yes/No) Yes
+0132| Lead form fields needed (Name, Email, Phone, etc.)
+0133| 14. Design Preferences
+0134| Color theme (or “use logo colors”)
+0135| Websites you like (besides the reference)
+0136| Tone:
+0137| Corporate / Friendly / Premium / Minimal
+0138| 15. Legal / Compliance (next update)
+0139| Privacy policy (needed? yes/no)
+0140| Terms & conditions (needed? yes/no)

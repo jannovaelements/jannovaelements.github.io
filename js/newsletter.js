@@ -2,6 +2,7 @@
   var form = document.getElementById("newsletterForm");
   if (!form) return;
 
+  var nameInput = document.getElementById("newsletterName");
   var emailInput = document.getElementById("newsletterEmail");
   var consentInput = document.getElementById("newsletterConsent");
   var submitBtn = document.getElementById("newsletterSubmit");
@@ -35,6 +36,7 @@
       submitBtn.disabled = busy;
       submitBtn.textContent = busy ? "Subscribing…" : "Subscribe";
     }
+    if (nameInput) nameInput.disabled = busy;
     if (emailInput) emailInput.disabled = busy;
     if (consentInput) consentInput.disabled = busy;
   }
@@ -52,6 +54,12 @@
 
     if (honeypot && honeypot.value.trim()) {
       showSuccess();
+      return;
+    }
+
+    if (!nameInput || !nameInput.value.trim()) {
+      setStatus("error", "Please enter your name.");
+      nameInput && nameInput.focus();
       return;
     }
 
@@ -81,8 +89,12 @@
       return;
     }
 
+    var name = nameInput.value.trim();
     var email = emailInput.value.trim();
     var body = new FormData();
+    if (cfg.nameEntry && String(cfg.nameEntry).indexOf("entry.") === 0) {
+      body.append(cfg.nameEntry, name);
+    }
     body.append(cfg.emailEntry, email);
 
     setSubmitting(true);

@@ -1,0 +1,29 @@
+﻿Media files in docx: 10
+  word/media/image1.png
+  word/media/image10.png
+  word/media/image2.png
+  word/media/image3.png
+  word/media/image4.png
+  word/media/image5.png
+  word/media/image6.png
+  word/media/image7.png
+  word/media/image8.png
+  word/media/image9.png
+
+--- block 38 ---
+We believe every organization is unique, which is why we create solutions tailored to its people, culture, and goals thr
+python : Traceback (most recent call last):
+At C:\Users\dhakite\AppData\Local\Temp\ps-script-6ab0b77f-7906-478b-a5d9-b0b2a04a2f0e.ps1:85 char:55
++ ... Projects\janNova"; python scripts/extract_docx_images.py 2>&1 | Out-F ...
++                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\dhakite\Documents\sideProjects\janNova\scripts\extract_docx_images.py", line 57, in <module>
+    main()
+  File "C:\Users\dhakite\Documents\sideProjects\janNova\scripts\extract_docx_images.py", line 49, in main
+    print(f"\n--- block {i} ---\n{ctx}{img_s}")
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 29: character maps to <undefined>
