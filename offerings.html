@@ -46,27 +46,27 @@
           </div>
           <ul class="nav__list">
             <li><a href="index.html">Home</a></li>
-            <li class="nav__item nav__item--has-sub is-active-branch is-open">
+            <li class="nav__item nav__item--has-sub is-active-branch is-open" data-nav-page="offerings">
               <a href="offerings.html" class="nav__parent" aria-current="page">Offerings</a>
               <button type="button" class="nav__sub-toggle" aria-expanded="true" aria-controls="submenu-offerings" aria-label="Offerings submenu"></button>
               <ul class="nav__sub" id="submenu-offerings">
-                <li><a href="offerings.html#organisation-development">Organisation Development</a></li>
-                <li><a href="offerings.html#hr-consultancy">HR Consultancy</a></li>
-                <li><a href="offerings.html#talent-management">Talent Management</a></li>
-                <li><a href="offerings.html#training">Training</a></li>
-                <li><a href="offerings.html#executive-coaching">Executive Leadership Coaching</a></li>
+                <li><a href="offerings.html#organisation-development" data-nav-section="organisationDevelopment">Organisation Development</a></li>
+                <li><a href="offerings.html#hr-consultancy" data-nav-section="hrConsultancy">HR Consultancy</a></li>
+                <li><a href="offerings.html#talent-management" data-nav-section="talentManagement">Talent Management</a></li>
+                <li><a href="offerings.html#training" data-nav-section="training">Training</a></li>
+                <li><a href="offerings.html#executive-coaching" data-nav-section="executiveCoaching">Executive Leadership Coaching</a></li>
               </ul>
             </li>
-            <li><a href="index.html#about">About Us</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="index.html#testimonials">Testimonials</a></li>
-            <li><a href="index.html#gallery">Gallery</a></li>
-            <li><a href="index.html#newsletter">Newsletter</a></li>
-            <li><a href="index.html#contact">Contact Us</a></li>
+            <li><a href="index.html#about" data-nav-section="about">About Us</a></li>
+            <li><a href="team.html" data-nav-page="team">Team</a></li>
+            <li><a href="index.html#testimonials" data-nav-section="testimonials">Testimonials</a></li>
+            <li><a href="index.html#gallery" data-nav-section="gallery">Gallery</a></li>
+            <li><a href="index.html#newsletter" data-nav-section="newsletter">Newsletter</a></li>
+            <li><a href="index.html#contact" data-nav-section="contact">Contact Us</a></li>
           </ul>
           <div class="nav-drawer__footer">
-            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="index.html#newsletter">Subscribe</a>
-            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="index.html#contact">Quick Enquiry</a>
+            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="index.html#newsletter" data-nav-section="newsletter">Subscribe</a>
+            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="index.html#contact" data-nav-section="contact">Quick Enquiry</a>
             <a class="nav-drawer__cta nav-drawer__cta--wa" href="https://wa.me/919987453879" target="_blank" rel="noopener noreferrer">Chat With Us</a>
           </div>
         </nav>
@@ -77,7 +77,7 @@
   <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
 
   <main id="main">
-    <section class="page-hero">
+    <section class="page-hero" data-section="offeringsPageHero">
       <div class="container">
         <p class="page-hero__eyebrow">Our Offerings</p>
         <h1 class="page-hero__title">Services that align people, culture &amp; strategy</h1>
@@ -85,14 +85,14 @@
       </div>
     </section>
 
-    <section class="section section--muted section--tight-top">
+    <section class="section section--muted section--tight-top" data-section="offeringsOverview">
       <div class="container">
         <header class="section__head section__head--center">
           <h2>Our services</h2>
           <p>Each service can be combined with diagnostics, workshops, coaching, and follow-up for long-term impact.</p>
         </header>
         <div class="cards cards--offerings-hero">
-          <a href="#organisation-development" class="card card--offer card--offer-link">
+          <a href="#organisation-development" class="card card--offer card--offer-link" data-nav-section="organisationDevelopment">
             <div class="card__img-wrap">
               <img src="images/about/workshop-care.jpg" alt="JanNova team in a facilitated organisation development workshop" width="640" height="360" loading="lazy">
             </div>
@@ -100,7 +100,7 @@
             <p>Sustainable organisational change through collaboration, leadership alignment, and culture.</p>
             <span class="card__link">Read more</span>
           </a>
-          <a href="#hr-consultancy" class="card card--offer card--offer-link">
+          <a href="#hr-consultancy" class="card card--offer card--offer-link" data-nav-section="hrConsultancy">
             <div class="card__img-wrap">
               <img src="images/gallery/team-office.png" alt="JanNova team and client group" width="640" height="360" loading="lazy">
             </div>
@@ -108,7 +108,7 @@
             <p>Practical HR systems that improve employee experience, retention, and organisational growth.</p>
             <span class="card__link">Read more</span>
           </a>
-          <a href="#talent-management" class="card card--offer card--offer-link">
+          <a href="#talent-management" class="card card--offer card--offer-link" data-nav-section="talentManagement">
             <div class="card__img-wrap">
               <img src="images/about/team-retreat.jpg" alt="Team at an outdoor talent and leadership retreat" width="640" height="360" loading="lazy">
             </div>
@@ -116,7 +116,7 @@
             <p>Identify potential, strengthen capability, and build future-ready leadership pipelines.</p>
             <span class="card__link">Read more</span>
           </a>
-          <a href="#training" class="card card--offer card--offer-link">
+          <a href="#training" class="card card--offer card--offer-link" data-nav-section="training">
             <div class="card__img-wrap">
               <img src="images/gallery/workshop-group.png" alt="Participants in a JanNova corporate training workshop" width="640" height="360" loading="lazy">
             </div>
@@ -124,7 +124,7 @@
             <p>Experiential programmes for behavioural, leadership, communication, and workplace effectiveness.</p>
             <span class="card__link">Read more</span>
           </a>
-          <a href="#executive-coaching" class="card card--offer card--offer-link">
+          <a href="#executive-coaching" class="card card--offer card--offer-link" data-nav-section="executiveCoaching">
             <div class="card__img-wrap">
               <img src="images/home/hero-workshop.jpg" alt="Leadership workshop with facilitator and team" width="640" height="360" loading="lazy">
             </div>
@@ -136,7 +136,7 @@
       </div>
     </section>
 
-    <article class="offering-detail" id="organisation-development">
+    <article class="offering-detail" id="organisation-development" data-section="organisationDevelopment">
       <div class="offering-detail__media">
         <img src="images/about/workshop-care.jpg" alt="JanNova organisation development workshop in session" width="1280" height="540" loading="lazy">
       </div>
@@ -152,7 +152,7 @@
       </div>
     </article>
 
-    <article class="offering-detail offering-detail--alt" id="hr-consultancy">
+    <article class="offering-detail offering-detail--alt" id="hr-consultancy" data-section="hrConsultancy">
       <div class="offering-detail__media">
         <img src="images/gallery/team-office.png" alt="JanNova team with client organisation" width="1280" height="540" loading="lazy">
       </div>
@@ -168,7 +168,7 @@
       </div>
     </article>
 
-    <article class="offering-detail" id="talent-management">
+    <article class="offering-detail" id="talent-management" data-section="talentManagement">
       <div class="offering-detail__media">
         <img src="images/about/team-retreat.jpg" alt="Team building at a talent management offsite" width="1280" height="540" loading="lazy">
       </div>
@@ -184,7 +184,7 @@
       </div>
     </article>
 
-    <article class="offering-detail offering-detail--alt" id="training">
+    <article class="offering-detail offering-detail--alt" id="training" data-section="training">
       <div class="offering-detail__media">
         <img src="images/gallery/workshop-group.png" alt="Corporate training workshop with JanNova" width="1280" height="540" loading="lazy">
       </div>
@@ -201,7 +201,7 @@
       </div>
     </article>
 
-    <article class="offering-detail" id="executive-coaching">
+    <article class="offering-detail" id="executive-coaching" data-section="executiveCoaching">
       <div class="offering-detail__media">
         <img src="images/home/hero-workshop.jpg" alt="Executive leadership coaching workshop" width="1280" height="540" loading="lazy">
       </div>
@@ -217,7 +217,7 @@
       </div>
     </article>
 
-    <section class="section section--cta">
+    <section class="section section--cta" data-section="offeringsCta">
       <div class="container container--narrow text-center">
         <h2>Craft the right programme with JanNova</h2>
         <p class="lede" style="margin-bottom:1.5rem">Tell us your audience, location, and goals—we’ll propose a tailored mix of OD, HR, talent, training, and coaching interventions.</p>
@@ -228,7 +228,7 @@
       </div>
     </section>
 
-    <section class="newsletter-band" id="newsletter" aria-labelledby="newsletter-heading">
+    <section class="newsletter-band" id="newsletter" data-section="newsletter" aria-labelledby="newsletter-heading">
       <div class="container newsletter-band__inner">
         <div class="newsletter-band__copy">
           <h2 id="newsletter-heading">Subscribe to our newsletter</h2>
@@ -271,13 +271,13 @@
         <h4 class="footer-heading">Quick links</h4>
         <ul class="footer-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="offerings.html">Offerings</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#gallery">Gallery</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="index.html#testimonials">Testimonials</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-          <li><a href="index.html#newsletter">Newsletter</a></li>
+          <li><a href="offerings.html" data-nav-page="offerings">Offerings</a></li>
+          <li><a href="index.html#about" data-nav-section="about">About</a></li>
+          <li><a href="index.html#gallery" data-nav-section="gallery">Gallery</a></li>
+          <li><a href="team.html" data-nav-page="team">Team</a></li>
+          <li><a href="index.html#testimonials" data-nav-section="testimonials">Testimonials</a></li>
+          <li><a href="index.html#contact" data-nav-section="contact">Contact</a></li>
+          <li><a href="index.html#newsletter" data-nav-section="newsletter">Newsletter</a></li>
           <li><a href="privacy.html">Privacy Policy</a></li>
           <li><a href="terms.html">Terms &amp; Conditions</a></li>
         </ul>
@@ -307,7 +307,7 @@
   </footer>
 
   <div class="fab-bar" role="complementary" aria-label="Quick contact">
-    <a href="index.html#contact" class="fab-bar__enquiry">
+    <a href="index.html#contact" class="fab-bar__enquiry" data-nav-section="contact">
       <svg class="fab-bar__svg" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M6 14h8v2H8l-2 3V14zm11-9c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2h-2v-2h2V7H7v6H5V7c0-1.1.9-2 2-2h10z" fill="currentColor" opacity="0.85"/>
         <path d="M9 10h6v1.5H9V10z" fill="currentColor"/>
@@ -321,6 +321,8 @@
     </a>
   </div>
 
+  <script src="js/site-config.js"></script>
+  <script src="js/section-visibility.js"></script>
   <script src="js/newsletter-config.js"></script>
   <script src="js/newsletter.js" defer></script>
   <script src="js/main.js" defer></script>

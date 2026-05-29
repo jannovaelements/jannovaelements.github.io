@@ -46,27 +46,27 @@
           </div>
           <ul class="nav__list">
             <li><a href="index.html">Home</a></li>
-            <li class="nav__item nav__item--has-sub">
+            <li class="nav__item nav__item--has-sub" data-nav-page="offerings">
               <a href="offerings.html" class="nav__parent">Offerings</a>
               <button type="button" class="nav__sub-toggle" aria-expanded="false" aria-controls="submenu-offerings" aria-label="Offerings submenu"></button>
               <ul class="nav__sub" id="submenu-offerings">
-                <li><a href="offerings.html#organisation-development">Organisation Development</a></li>
-                <li><a href="offerings.html#hr-consultancy">HR Consultancy</a></li>
-                <li><a href="offerings.html#talent-management">Talent Management</a></li>
-                <li><a href="offerings.html#training">Training</a></li>
-                <li><a href="offerings.html#executive-coaching">Executive Leadership Coaching</a></li>
+                <li><a href="offerings.html#organisation-development" data-nav-section="organisationDevelopment">Organisation Development</a></li>
+                <li><a href="offerings.html#hr-consultancy" data-nav-section="hrConsultancy">HR Consultancy</a></li>
+                <li><a href="offerings.html#talent-management" data-nav-section="talentManagement">Talent Management</a></li>
+                <li><a href="offerings.html#training" data-nav-section="training">Training</a></li>
+                <li><a href="offerings.html#executive-coaching" data-nav-section="executiveCoaching">Executive Leadership Coaching</a></li>
               </ul>
             </li>
-            <li><a href="index.html#about">About Us</a></li>
-            <li><a href="team.html" aria-current="page">Team</a></li>
-            <li><a href="index.html#testimonials">Testimonials</a></li>
-            <li><a href="index.html#gallery">Gallery</a></li>
-            <li><a href="index.html#newsletter">Newsletter</a></li>
-            <li><a href="index.html#contact">Contact Us</a></li>
+            <li><a href="index.html#about" data-nav-section="about">About Us</a></li>
+            <li><a href="team.html" aria-current="page" data-nav-page="team">Team</a></li>
+            <li><a href="index.html#testimonials" data-nav-section="testimonials">Testimonials</a></li>
+            <li><a href="index.html#gallery" data-nav-section="gallery">Gallery</a></li>
+            <li><a href="index.html#newsletter" data-nav-section="newsletter">Newsletter</a></li>
+            <li><a href="index.html#contact" data-nav-section="contact">Contact Us</a></li>
           </ul>
           <div class="nav-drawer__footer">
-            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="index.html#newsletter">Subscribe</a>
-            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="index.html#contact">Quick Enquiry</a>
+            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="index.html#newsletter" data-nav-section="newsletter">Subscribe</a>
+            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="index.html#contact" data-nav-section="contact">Quick Enquiry</a>
             <a class="nav-drawer__cta nav-drawer__cta--wa" href="https://wa.me/919987453879" target="_blank" rel="noopener noreferrer">Chat With Us</a>
           </div>
         </nav>
@@ -77,7 +77,7 @@
   <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
 
   <main id="main">
-    <section class="page-hero">
+    <section class="page-hero" data-section="teamPageHero">
       <div class="container">
         <p class="page-hero__eyebrow">Trainers / Team</p>
         <h1 class="page-hero__title">Meet our facilitators &amp; leaders</h1>
@@ -87,7 +87,7 @@
 
     <section class="section section--tight-top">
       <div class="container team-profiles">
-        <article class="team-profile" id="dinesh-jambe">
+        <article class="team-profile" id="dinesh-jambe" data-section="teamDinesh">
           <div class="team-profile__media">
             <img src="images/team/dinesh.png" alt="Dinesh Jambe" width="480" height="640" loading="lazy">
           </div>
@@ -103,7 +103,7 @@
           </div>
         </article>
 
-        <article class="team-profile team-profile--alt" id="shraddha-paunikar">
+        <article class="team-profile team-profile--alt" id="shraddha-paunikar" data-section="teamShraddha">
           <div class="team-profile__media">
             <img src="images/team/shraddha.png" alt="Shraddha Paunikar" width="480" height="640" loading="lazy">
           </div>
@@ -117,7 +117,7 @@
           </div>
         </article>
 
-        <article class="team-profile" id="sameer-deotey">
+        <article class="team-profile" id="sameer-deotey" data-section="teamSameer">
           <div class="team-profile__media">
             <img src="images/team/sameer.jpg" alt="Dr. Sameer Deotey" width="480" height="640" loading="lazy">
           </div>
@@ -129,7 +129,7 @@
           </div>
         </article>
 
-        <article class="team-profile team-profile--alt" id="anika-gaurat">
+        <article class="team-profile team-profile--alt" id="anika-gaurat" data-section="teamAnika">
           <div class="team-profile__media">
             <img src="images/team/anika.png" alt="Anika Gaurat" width="480" height="640" loading="lazy">
           </div>
@@ -146,7 +146,7 @@
       </div>
     </section>
 
-    <section class="section section--cta">
+    <section class="section section--cta" data-section="teamCta">
       <div class="container container--narrow text-center">
         <h2>Work with our team</h2>
         <p class="lede" style="margin-bottom:1.5rem">Tell us your goals—we’ll match the right facilitators and programme design for your organisation.</p>
@@ -171,13 +171,13 @@
         <h4 class="footer-heading">Quick links</h4>
         <ul class="footer-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="offerings.html">Offerings</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#gallery">Gallery</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="index.html#testimonials">Testimonials</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-          <li><a href="index.html#newsletter">Newsletter</a></li>
+          <li><a href="offerings.html" data-nav-page="offerings">Offerings</a></li>
+          <li><a href="index.html#about" data-nav-section="about">About</a></li>
+          <li><a href="index.html#gallery" data-nav-section="gallery">Gallery</a></li>
+          <li><a href="team.html" data-nav-page="team">Team</a></li>
+          <li><a href="index.html#testimonials" data-nav-section="testimonials">Testimonials</a></li>
+          <li><a href="index.html#contact" data-nav-section="contact">Contact</a></li>
+          <li><a href="index.html#newsletter" data-nav-section="newsletter">Newsletter</a></li>
           <li><a href="privacy.html">Privacy Policy</a></li>
           <li><a href="terms.html">Terms &amp; Conditions</a></li>
         </ul>
@@ -208,7 +208,7 @@
   </footer>
 
   <div class="fab-bar" role="complementary" aria-label="Quick contact">
-    <a href="index.html#contact" class="fab-bar__enquiry">
+    <a href="index.html#contact" class="fab-bar__enquiry" data-nav-section="contact">
       <svg class="fab-bar__svg" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M6 14h8v2H8l-2 3V14zm11-9c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2h-2v-2h2V7H7v6H5V7c0-1.1.9-2 2-2h10z" fill="currentColor" opacity="0.85"/>
         <path d="M9 10h6v1.5H9V10z" fill="currentColor"/>
@@ -222,6 +222,8 @@
     </a>
   </div>
 
+  <script src="js/site-config.js"></script>
+  <script src="js/section-visibility.js"></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>

@@ -69,27 +69,27 @@
           </div>
           <ul class="nav__list">
             <li><a href="index.html">Home</a></li>
-            <li class="nav__item nav__item--has-sub">
+            <li class="nav__item nav__item--has-sub" data-nav-page="offerings">
               <a href="offerings.html" class="nav__parent">Offerings</a>
               <button type="button" class="nav__sub-toggle" aria-expanded="false" aria-controls="submenu-offerings" aria-label="Offerings submenu"></button>
               <ul class="nav__sub" id="submenu-offerings">
-                <li><a href="offerings.html#organisation-development">Organisation Development</a></li>
-                <li><a href="offerings.html#hr-consultancy">HR Consultancy</a></li>
-                <li><a href="offerings.html#talent-management">Talent Management</a></li>
-                <li><a href="offerings.html#training">Training</a></li>
-                <li><a href="offerings.html#executive-coaching">Executive Leadership Coaching</a></li>
+                <li><a href="offerings.html#organisation-development" data-nav-section="organisationDevelopment">Organisation Development</a></li>
+                <li><a href="offerings.html#hr-consultancy" data-nav-section="hrConsultancy">HR Consultancy</a></li>
+                <li><a href="offerings.html#talent-management" data-nav-section="talentManagement">Talent Management</a></li>
+                <li><a href="offerings.html#training" data-nav-section="training">Training</a></li>
+                <li><a href="offerings.html#executive-coaching" data-nav-section="executiveCoaching">Executive Leadership Coaching</a></li>
               </ul>
             </li>
-            <li><a href="index.html#about">About Us</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="index.html#testimonials">Testimonials</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="index.html#newsletter">Newsletter</a></li>
-            <li><a href="index.html#contact">Contact Us</a></li>
+            <li><a href="index.html#about" data-nav-section="about">About Us</a></li>
+            <li><a href="team.html" data-nav-page="team">Team</a></li>
+            <li><a href="index.html#testimonials" data-nav-section="testimonials">Testimonials</a></li>
+            <li><a href="#gallery" data-nav-section="gallery">Gallery</a></li>
+            <li><a href="index.html#newsletter" data-nav-section="newsletter">Newsletter</a></li>
+            <li><a href="index.html#contact" data-nav-section="contact">Contact Us</a></li>
           </ul>
           <div class="nav-drawer__footer">
-            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="#newsletter">Subscribe</a>
-            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="#contact">Quick Enquiry</a>
+            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="#newsletter" data-nav-section="newsletter">Subscribe</a>
+            <a class="nav-drawer__cta nav-drawer__cta--enquiry" href="#contact" data-nav-section="contact">Quick Enquiry</a>
             <a class="nav-drawer__cta nav-drawer__cta--wa" href="https://wa.me/919987453879" target="_blank" rel="noopener noreferrer">Chat With Us</a>
           </div>
         </nav>
@@ -100,7 +100,7 @@
   <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
 
   <main id="main">
-    <section class="hero-full" id="home">
+    <section class="hero-full" id="home" data-section="hero">
       <div class="hero-full__bg hero-full__bg--home" role="img" aria-label="Team celebrating together outdoors"></div>
       <div class="hero-full__overlay"></div>
       <div class="container hero-full__content">
@@ -117,14 +117,14 @@
         </h1>
         <p class="hero-full__lede">At JanNova Elements, we help organisations level up by transforming the way people, culture, and performance come together. We partner with you to align people, culture, and strategy—through OD, HR consultancy, talent management, training, and executive coaching across India, UAE, and Qatar.</p>
         <div class="hero-full__actions">
-          <a class="btn btn--hero-outline" href="offerings.html">Our Offerings</a>
-          <a class="btn btn--hero-primary" href="#contact">Contact Us</a>
-          <a class="btn btn--hero-outline" href="#social">Social Presence</a>
+          <a class="btn btn--hero-outline" href="offerings.html" data-nav-page="offerings">Our Offerings</a>
+          <a class="btn btn--hero-primary" href="#contact" data-section-link="contact">Contact Us</a>
+          <a class="btn btn--hero-outline" href="#social" data-section-link="social">Social Presence</a>
         </div>
       </div>
     </section>
 
-    <section class="section section--doodle section--offerings-preview" id="offerings-preview" aria-labelledby="offerings-preview-title">
+    <section class="section section--doodle section--offerings-preview" id="offerings-preview" data-section="offeringsPreview" aria-labelledby="offerings-preview-title">
       <div class="container">
         <header class="section__head section__head--center">
           <p class="section__kicker" id="offerings-preview-title">Services &amp; Training Programmes</p>
@@ -132,7 +132,7 @@
           <p>Practical, people-centric solutions across organisation development, HR, talent, training, and leadership coaching—tailored to your culture and goals.</p>
         </header>
         <div class="cards cards--5">
-          <article class="card card--offer">
+          <article class="card card--offer" data-nav-section="organisationDevelopment">
             <div class="card__img-wrap">
               <img src="images/about/workshop-care.jpg" alt="Facilitated organisation development workshop" width="640" height="380" loading="lazy">
             </div>
@@ -140,7 +140,7 @@
             <p>Sustainable change through collaboration, leadership alignment, and healthy workplace cultures.</p>
             <a href="offerings.html#organisation-development" class="card__link">Explore</a>
           </article>
-          <article class="card card--offer">
+          <article class="card card--offer" data-nav-section="hrConsultancy">
             <div class="card__img-wrap">
               <img src="images/gallery/team-office.png" alt="JanNova team with client group" width="640" height="380" loading="lazy">
             </div>
@@ -148,7 +148,7 @@
             <p>Scalable HR systems and practices that improve employee experience, retention, and growth.</p>
             <a href="offerings.html#hr-consultancy" class="card__link">Explore</a>
           </article>
-          <article class="card card--offer">
+          <article class="card card--offer" data-nav-section="talentManagement">
             <div class="card__img-wrap">
               <img src="images/about/team-retreat.jpg" alt="Team at a talent and leadership retreat" width="640" height="380" loading="lazy">
             </div>
@@ -156,7 +156,7 @@
             <p>Structured practices to identify potential, strengthen capability, and build leadership pipelines.</p>
             <a href="offerings.html#talent-management" class="card__link">Explore</a>
           </article>
-          <article class="card card--offer">
+          <article class="card card--offer" data-nav-section="training">
             <div class="card__img-wrap">
               <img src="images/gallery/workshop-group.png" alt="Corporate training workshop participants" width="640" height="380" loading="lazy">
             </div>
@@ -164,7 +164,7 @@
             <p>Experiential capability-building for behavioural, leadership, communication, and workplace effectiveness.</p>
             <a href="offerings.html#training" class="card__link">Explore</a>
           </article>
-          <article class="card card--offer">
+          <article class="card card--offer" data-nav-section="executiveCoaching">
             <div class="card__img-wrap">
               <img src="images/home/hero-workshop.jpg" alt="Leadership coaching workshop session" width="640" height="380" loading="lazy">
             </div>
@@ -174,12 +174,12 @@
           </article>
         </div>
         <div class="section__actions">
-          <a class="btn btn--primary btn--lg" href="offerings.html">View all offerings</a>
+          <a class="btn btn--primary btn--lg" href="offerings.html" data-nav-page="offerings">View all offerings</a>
         </div>
       </div>
     </section>
 
-    <section class="section section--highlights" id="why-choose-us">
+    <section class="section section--highlights" id="why-choose-us" data-section="whyChooseUs">
       <div class="container">
         <header class="section__head section__head--center">
           <p class="section__kicker">Why Choose Us</p>
@@ -225,7 +225,7 @@
       </div>
     </section>
 
-    <section class="section section--muted" aria-labelledby="industries-heading">
+    <section class="section section--muted" id="industries" data-section="industries" aria-labelledby="industries-heading">
       <div class="container">
         <header class="section__head section__head--center">
           <h2 id="industries-heading">Industries We Serve</h2>
@@ -237,7 +237,7 @@
       </div>
     </section>
 
-    <section class="section section--muted" id="method">
+    <section class="section section--muted" id="method" data-section="method">
       <div class="container">
         <header class="section__head section__head--center">
           <p class="section__kicker">Our exclusive 4D Model</p>
@@ -316,7 +316,7 @@
       </div>
     </section>
 
-    <section class="section" id="about">
+    <section class="section" id="about" data-section="about">
       <div class="container two-col two-col--about">
         <div>
           <p class="section__kicker">About Us</p>
@@ -401,7 +401,7 @@
       </div>
     </section>
 
-    <section class="section gallery-section" id="gallery">
+    <section class="section gallery-section" id="gallery" data-section="gallery">
       <div class="container">
         <header class="section__head section__head--center gallery-section__head">
           <p class="section__kicker">Gallery</p>
@@ -441,7 +441,7 @@
       </div>
     </section>
 
-    <section class="section stats" aria-labelledby="stats-heading">
+    <section class="section stats" id="stats" data-section="stats" aria-labelledby="stats-heading">
       <div class="container stats__grid">
         <h2 id="stats-heading" class="visually-hidden">Impact at a glance</h2>
         <div class="stat">
@@ -463,7 +463,7 @@
       </div>
     </section>
 
-    <section class="section section--muted" id="team">
+    <section class="section section--muted" id="team" data-section="teamPreview">
       <div class="container">
         <header class="section__head section__head--center">
           <h2>Our Team</h2>
@@ -504,12 +504,12 @@
           </article>
         </div>
         <div class="section__actions section__actions--team">
-          <a class="btn btn--primary btn--lg" href="team.html">Meet the full team</a>
+          <a class="btn btn--primary btn--lg" href="team.html" data-nav-page="team">Meet the full team</a>
         </div>
       </div>
     </section>
 
-    <section class="section" id="social">
+    <section class="section" id="social" data-section="social">
       <div class="container two-col two-col--reverse">
         <div>
           <header class="section__head section__head--left">
@@ -528,7 +528,7 @@
       </div>
     </section>
 
-    <section class="section section--muted section--marquee-wrap" id="testimonials">
+    <section class="section section--muted section--marquee-wrap" id="testimonials" data-section="testimonials">
       <div class="container">
         <header class="section__head section__head--center">
           <h2>What Our Clients Say About Us</h2>
@@ -593,7 +593,7 @@
       </div>
     </section>
 
-    <section class="section section--faq" id="faq" aria-labelledby="faq-heading">
+    <section class="section section--faq" id="faq" data-section="faq" aria-labelledby="faq-heading">
       <div class="container container--narrow">
         <header class="section__head section__head--center">
           <h2 id="faq-heading">Frequently Asked Questions</h2>
@@ -636,7 +636,7 @@
       </div>
     </section>
 
-    <section class="section section--cta" id="contact">
+    <section class="section section--cta" id="contact" data-section="contact">
       <div class="container two-col contact-grid">
         <div>
           <header class="section__head section__head--left">
@@ -686,7 +686,7 @@
       </div>
     </section>
 
-    <section class="newsletter-band" id="newsletter" aria-labelledby="newsletter-heading">
+    <section class="newsletter-band" id="newsletter" data-section="newsletter" aria-labelledby="newsletter-heading">
       <div class="container newsletter-band__inner">
         <div class="newsletter-band__copy">
           <h2 id="newsletter-heading">Subscribe to our newsletter</h2>
@@ -729,13 +729,13 @@
         <h4 class="footer-heading">Quick links</h4>
         <ul class="footer-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="offerings.html">Offerings</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#gallery">Gallery</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="index.html#testimonials">Testimonials</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-          <li><a href="index.html#newsletter">Newsletter</a></li>
+          <li><a href="offerings.html" data-nav-page="offerings">Offerings</a></li>
+          <li><a href="index.html#about" data-nav-section="about">About</a></li>
+          <li><a href="index.html#gallery" data-nav-section="gallery">Gallery</a></li>
+          <li><a href="team.html" data-nav-page="team">Team</a></li>
+          <li><a href="index.html#testimonials" data-nav-section="testimonials">Testimonials</a></li>
+          <li><a href="index.html#contact" data-nav-section="contact">Contact</a></li>
+          <li><a href="index.html#newsletter" data-nav-section="newsletter">Newsletter</a></li>
           <li><a href="privacy.html">Privacy Policy</a></li>
           <li><a href="terms.html">Terms &amp; Conditions</a></li>
         </ul>
@@ -766,7 +766,7 @@
   </footer>
 
   <div class="fab-bar" role="complementary" aria-label="Quick contact">
-    <a href="#contact" class="fab-bar__enquiry">
+    <a href="#contact" class="fab-bar__enquiry" data-nav-section="contact">
       <svg class="fab-bar__svg" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M6 14h8v2H8l-2 3V14zm11-9c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2h-2v-2h2V7H7v6H5V7c0-1.1.9-2 2-2h10z" fill="currentColor" opacity="0.85"/>
         <path d="M9 10h6v1.5H9V10z" fill="currentColor"/>
@@ -780,6 +780,8 @@
     </a>
   </div>
 
+  <script src="js/site-config.js"></script>
+  <script src="js/section-visibility.js"></script>
   <script src="js/newsletter-config.js"></script>
   <script src="js/newsletter.js" defer></script>
   <script src="js/main.js" defer></script>
